@@ -1,0 +1,25 @@
+# ソースコードフォルダ
+
+このフォルダには将来的に以下のソースコードを配置します：
+
+## 予定されるフォルダ構造
+
+```
+lib/
+├── widgets/            # 再利用可能なUIウィジェット
+├── screens/            # 画面ウィジェット
+├── services/           # ビジネスロジック・API
+├── models/             # データモデル（Dartクラス）
+├── utils/              # ユーティリティ関数
+├── providers/          # 状態管理（Provider/Riverpod）
+├── navigation/         # ナビゲーション設定
+├── constants/          # 定数定義
+└── main.dart           # アプリのエントリーポイント
+```
+
+## 技術スタック
+- Flutter + Dart
+- Provider / Riverpod
+- SharedPreferences / Hive
+- in_app_purchase
+- Google Mobile Ads SDK for Flutter
